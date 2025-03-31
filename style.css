@@ -373,10 +373,18 @@ p {
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background-image: url("images/fitness.avif");
+  background-image: url("images/Screenshot\ \(58\).png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 50vh;
+}
+.pr-card2{
+  background-image: url("images/Screenshot\ \(55\).png");
+
+}
+.pr-card3{
+  background-image: url("images/Screenshot\ \(56\).png");
+
 }
 
 .project-card::before {
@@ -412,9 +420,9 @@ p {
 }
 
 .project-card h5 {
-  font-size: 1.3rem;
+  font-style: italic;
   margin-bottom: 10px;
-  color: #fff;
+  color: rgb(212, 175, 9);
 }
 
 .project-card p {
